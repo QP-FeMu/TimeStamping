@@ -112,7 +112,6 @@ sap.ui.getCore().attachInit(function todoApp() {
 	 TO-DO:
 	 1) request notification permission when opening the app
 	 2) implement for-loop to set notification-sending timouts at every full minute of a day
-	 3) VSC WIE BEI MICHA !!!
 	 */
 
 

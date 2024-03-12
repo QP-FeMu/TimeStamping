@@ -110,6 +110,7 @@ sap.ui.getCore().attachInit(function todoApp() {
 
 	/*
 	 TO-DO:
+	 0) install cf cli for windows to enable cf deployment as done in dev space
 	 1) request notification permission when opening the app
 	 2) implement for-loop to set notification-sending timouts at every full minute of a day
 	 */

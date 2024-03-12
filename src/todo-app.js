@@ -89,15 +89,15 @@ sap.ui.getCore().attachInit(function todoApp() {
 		console.log("Timeout C executed -> " + JSON.parse(localStorage.getItem("timeout")));
 	}
 	var now = new Date();
-	var milliSecondsTill10a = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 54, 0, 0) - now;
+	var milliSecondsTill10a = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 26, 0, 0) - now;
 	if (milliSecondsTill10a < 0) {
 		milliSecondsTill10a += 86400000; // it's after 10am, try 10am tomorrow.
 	}
-	var milliSecondsTill10b = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 54, 30, 0) - now;
+	var milliSecondsTill10b = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 26, 30, 0) - now;
 	if (milliSecondsTill10b < 0) {
 		milliSecondsTill10b += 86400000; // it's after 10am, try 10am tomorrow.
 	}
-	var milliSecondsTill10c = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 55, 0, 0) - now;
+	var milliSecondsTill10c = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 27, 0, 0) - now;
 	if (milliSecondsTill10c < 0) {
 		milliSecondsTill10c += 86400000; // it's after 10am, try 10am tomorrow.
 	}
@@ -110,7 +110,6 @@ sap.ui.getCore().attachInit(function todoApp() {
 
 	/*
 	 TO-DO:
-	 0) install cf cli for windows to enable cf deployment as done in dev space
 	 1) request notification permission when opening the app
 	 2) implement for-loop to set notification-sending timouts at every full minute of a day
 	 */

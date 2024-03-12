@@ -43,11 +43,13 @@
 	<!-- Load web-push library
 		1) npm install web-push --save
 		2) npm install browserify -g
-		3) 
+		3) <script src="todo-app.js"></script> durch <script src="bundle.js"></script> ersetzen
+		4) je nachdem z.b. eins von den folgenden:
 		   browserify src/todo-app.js -o src/bundle.js
+		   browserify todo-app.js -o bundle.js
 	-->
 	<!-- Load and run the application -->
-	<script src="bundle.js"></script>
+	<script src="todo-app.js"></script>
 
 	<!-- Delete all routes and re-create space
 		cf delete-space dev

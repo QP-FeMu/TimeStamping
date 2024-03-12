@@ -2,7 +2,7 @@
  * Sample OpenUI5 Progressive Web Application
  * Simple TODO list
  */
-const webpush = require('web-push');
+// const webpush = require('web-push');
 sap.ui.getCore().attachInit(function todoApp() {
 
 
@@ -110,7 +110,6 @@ sap.ui.getCore().attachInit(function todoApp() {
 
 	/*
 	 TO-DO:
-	 0) VSC LOCAL VIA CLONE AUS GIT
 	 1) request notification permission when opening the app
 	 2) implement for-loop to set notification-sending timouts at every full minute of a day
 	 */
